@@ -10,13 +10,14 @@ namespace first
     {
         static void Main(string[] args)
         {
+            Country country = new Country();
         }
-    }
 
-    public class Country
-    {
-        public string Name { get; set; }
-        public string FormOfGovernment { get; set; }
-        public float Square { get; set; }
+        public class Country
+        {
+            public string Name { get; set; }
+            public string FormOfGovernment { get; set; }
+            public float Square { get; set; }
+        }
     }
 }
